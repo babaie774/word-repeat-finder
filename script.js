@@ -11,9 +11,12 @@ function getValText() {
 //check logic code after onclick
 const formButton = document.getElementById('formButton');
 formButton.addEventListener('click', () => {
-    const repeatTime = getValText().split(' ').filter((text) => {
+    let repeatTime =
+        //if input was empty
+        getValText() == '' & getValWord() == '' ? 'no' :
+        //if input has value
+        getValText().split(' ').filter((text) => {
         return text == getValWord().trim();
     }).length;
-    console.log(repeatTime)
     document.getElementById('formResult').innerHTML = `you word repeated ${repeatTime} times`
 });
