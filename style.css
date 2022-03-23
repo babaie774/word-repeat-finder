@@ -125,8 +125,6 @@ ul {
 
 @media screen and (min-width: 480px) {
   .containerFinder {
-    text-align: center;
     width: 60%;
-    font-weight: 700;
   }
 }
