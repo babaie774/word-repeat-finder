@@ -9,15 +9,25 @@
 </head>
 
 <body>
+
     <div class="container">
-        <h1 class="containerTitle">
-            find how much one word repeated!
-        </h1>
-        <form class="form" action="">
-            <input class="formInput" type="text">
-            <textarea class="fromTextArea" rows="4" cols="50"></textarea>
-            <input type="button">
-        </form>
+        <div class="containerFinder">
+            <h1 class="containerFinderTitle">
+                find how much one word repeated!
+            </h1>
+            <form class="form">
+                <div class="wordArea">
+                    <label class="label" for="word">word</label>
+                    <input class="formInput" id="formWord" name="word"   type="text">
+                </div>
+                <div class="textArea">
+                    <label class="label" for="text">text</label>
+                    <textarea class="fromTextArea" id="formText" rows="4" cols="50"></textarea>
+                </div>
+                <input class="fromButton" id="formButton" type="button" value="Check">
+            </form>
+            <p class="containerFinderResult" id="formResult"></p>
+        </div>
     </div>
     <script src="./script.js"></script>
 </body>
