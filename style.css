@@ -1,0 +1,33 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  direction: ltr;
+  /* background-color: black; */
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+a {
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+a:hover,
+a.active {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+li,
+ol,
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
