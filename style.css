@@ -46,10 +46,11 @@ ul {
 .containerFinder {
   text-align: center;
   width: 40%;
+  font-weight: 700;
 }
 
 .containerFinderTitle {
-  color: white;
+  color: #dfa612;
 }
 
 .form {
@@ -75,11 +76,12 @@ ul {
 
 .formInput,
 .fromTextArea {
-  border: 3px white solid;
-  background-color: transparent;
+  border: none;
+  background-color: white;
+  /* background-color: transparent; */
   border-radius: 6px;
   width: 100%;
-  color: white;
+  color: black;
   font-size: 16px;
   padding: 10px;
   margin: 5px 0px;
@@ -112,4 +114,9 @@ ul {
   outline: none;
   border: 3px solid #dfa612;
   color: #dfa612;
+}
+
+.containerFinderResult {
+  color: white;
+  font-size: 20px;
 }

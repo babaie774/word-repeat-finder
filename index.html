@@ -18,11 +18,11 @@
             <form class="form">
                 <div class="wordArea">
                     <label class="label" for="word">word</label>
-                    <input class="formInput" id="formWord" name="word"   type="text">
+                    <input class="formInput" id="formWord" name="word" type="text" onkeydown="getValWord()">
                 </div>
                 <div class="textArea">
                     <label class="label" for="text">text</label>
-                    <textarea class="fromTextArea" id="formText" rows="4" cols="50"></textarea>
+                    <textarea class="fromTextArea" id="formText" rows="4" cols="50" onkeydown="getValText()"></textarea>
                 </div>
                 <input class="fromButton" id="formButton" type="button" value="Check">
             </form>
