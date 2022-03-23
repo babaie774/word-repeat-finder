@@ -18,5 +18,5 @@ formButton.addEventListener('click', () => {
         getValText().split(' ').filter((text) => {
         return text == getValWord().trim();
     }).length;
-    document.getElementById('formResult').innerHTML = `you word repeated ${repeatTime} times`
+    document.getElementById('formResult').innerHTML = `your word repeated ${repeatTime} times`
 });
